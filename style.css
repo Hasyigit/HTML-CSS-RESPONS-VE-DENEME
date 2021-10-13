@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    width: 99%;
+            height: 95%;
+            margin: 8% -2% -2% 1%;
+            
+            
+    /* width: 90%;
+    margin:0px auto; */
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+    background-color:rgb(249, 249, 249);
+    background-image: url('img/rocket.png');
+    background-repeat: no-repeat; /* resmin tekrar etmesini engeller*/
+
+}
+
+.navbar{
+    background-color:white;
+    border-style: solid;
+    border-color: brown;
+    border-width: 1px;
+    box-shadow:0 4px 10px rgba(0, 0, 0,0.25);
+    display: flex; /*esneklik*/
+    height: 100px;
+    
+
+}
+
+
+.navbar li{
+    display:inline-block;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF6568;
+    
+}
+
+.title h2{
+    font-size:4rem;
+    font-weight: 600;
+    line-height: 93px;
+    position: relative;
+    top:150px;
+    left:100px;
+    
+    
+}
+
+.moon{
+    width: 100%;
+    
+
+}
+
+.btn{
+    width: 170px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left:500px;
+    font-size: 20px;
+    background: #ff6568;
+    
+    
+
+}
+
+.entry{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    
+}
+
+.btn:focus{
+    outline: none;
+    
+}
+
+.btn:hover{
+    transform:scale(1.1);
+    transform: duration 300ms;
+    
+}
+
+.scroll{
+    position: relative;
+    left: 45%;
+    top: 10px;
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    
+}
+.site-footer
+{
+  background-color:#303444;
+  padding:10px 0 10px;
+  font-size:15px;
+  line-height:7px;
+  color:#737373;
+  
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+  
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:cadetblue;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+  
+}
+#sosyalmedya{
+    padding-left:0;
+  margin-bottom:0;
+  list-style:none
+  
+    
+}
+#sosyalmedya ul{
+    margin: 30px;
+    top: 100px;
+    left: 200px;
+    padding: 10px;
+    margin-left: 80%;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+#sosyalmedya a{
+    background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+  
+
+}
+
+#sosyalmedya li{
+    display:inline-block;
+  margin-bottom:4px
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+  
+}
+@media (max-width: 600px){
+    body{
+        background: none;
+        
+
+    }
+    @media (max-width: 600px){
+        .navbar ul{
+            position: relative;
+            left: -350px;
+            
+            
+            
+            
+        }
+        
+        .navbar li a{
+            font-size: 20px;
+            
+            
+            
+           
+        }
+        .navbar li{
+            display:inline-block;
+            margin: 20px;
+            position: relative;
+            left: 300px;
+            
+    
+
+        }
+        .title h2{
+            position: relative;
+            left:0;
+            top:10px;
+            font-size: 3rem;
+            text-align: center;
+        }
+        .btn{
+            position: relative;
+            left:0;
+            top:-20px;
+            left:100px;
+        }
+        .moon{
+            width:80%;
+            margin: 0 40px 0 40px;
+        }
+        .scroll{
+            position: relative;
+            left:0;
+            margin: 0 0 0 130px;
+        }
+        
+        @media (max-width: 767px) {
+            .footer {
+              font-size: 14px;
+              
+              
+              
+            }
+
+            #sosyalmedya ul{
+                border-style: none;
+                height: 20px;
+                position: relative;
+            left: -5px;
+            top: -125px;
+            
+            
+            
+            	
+            
+
+            }
+            #sosyalmedya li{
+                height: 65px;
+                
+                
+            }
+            .footer .footer-left,
+            .footer .footer-center,
+            .footer .footer-right {
+              display: block;
+              width: 100%;
+              margin-bottom: 40px;
+              text-align: center;
+              
+            }
+            .footer .footer-center i {
+              margin-left: 0;
+              
+            }
+          }
